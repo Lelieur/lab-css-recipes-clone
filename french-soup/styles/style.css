@@ -45,11 +45,11 @@ h2 {
   padding: 50px 90px 0px 90px;
 }
 
-.recipe-ingredients>ol {
+.recipe-ingredients>ul {
   list-style: none;
 }
 
-.recipe-ingredients>ol>li::before {
+.recipe-ingredients>ul>li::before {
   content: "- ";
 }
 
@@ -64,6 +64,6 @@ h2 {
   padding: 50px 90px 50px 90px;
 }
 
-.recipe-directions>ul {
+.recipe-directions>ol {
   list-style-type: decimal;
 }
